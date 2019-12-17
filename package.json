@@ -88,7 +88,7 @@
     "z-schema": "^4.1.0"
   },
   "dependencies": {
-    "json-schema-ref-parser": "^6.1.0",
+    "@meeshkanml/json-schema-ref-parser": "0.0.0",
     "jsonpath-plus": "^1.0.0",
     "randexp": "^0.5.3"
   }
