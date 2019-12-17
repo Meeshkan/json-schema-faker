@@ -2,7 +2,7 @@
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var $RefParser = _interopDefault(require('json-schema-ref-parser'));
+var $RefParser = _interopDefault(require('@meeshkanml/json-schema-ref-parser'));
 var RandExp = _interopDefault(require('randexp'));
 var jsonpathPlus = require('jsonpath-plus');
 
