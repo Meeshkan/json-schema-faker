@@ -1,8 +1,8 @@
 {
-  "name": "json-schema-faker",
-  "version": "0.5.0-rc23",
-  "description": "JSON-Schema + fake data generators",
-  "homepage": "http://json-schema-faker.js.org",
+  "name": "@meeshkanml/json-schema-faker",
+  "version": "0.0.0",
+  "description": "Fork of json-schema-faker using a custom json-schema-ref-parser",
+  "homepage": "https://github.com/unmock/json-schema-ref-parser",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/bundle.umd.min.js",
@@ -36,9 +36,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/json-schema-faker/json-schema-faker"
+    "url": "https://github.com/unmock/json-schema-ref-parser"
   },
-  "bugs": "https://github.com/json-schema-faker/json-schema-faker/issues",
+  "bugs": "https://github.com/unmock/json-schema-ref-parser/issues",
   "license": "MIT",
   "keywords": [
     "json",
