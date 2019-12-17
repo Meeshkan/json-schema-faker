@@ -1,6 +1,6 @@
 {
   "name": "@meeshkanml/json-schema-faker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fork of json-schema-faker using a custom json-schema-ref-parser",
   "homepage": "https://github.com/unmock/json-schema-ref-parser",
   "main": "dist/index.js",
