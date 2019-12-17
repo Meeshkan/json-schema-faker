@@ -7,6 +7,7 @@
   "module": "dist/index.esm.js",
   "unpkg": "dist/bundle.umd.min.js",
   "browser": "dist/index.umd.min.js",
+  "react-native": "dist/index.js",
   "scripts": {
     "build:concat:dist": "concat -o dist/bundle.umd.min.js node_modules/json-schema-ref-parser/dist/ref-parser.min.js node_modules/jsonpath-plus/dist/index-umd.min.js dist/index.umd.min.js",
     "build:browser": "bili --banner --format umd --format umd-min --module-name JSONSchemaFaker --minimal && npm run build:concat:dist",
