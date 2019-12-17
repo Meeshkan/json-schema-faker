@@ -6,7 +6,10 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/bundle.umd.min.js",
-  "browser": "dist/index.umd.min.js",
+  "browser": {
+    "index.js": "dist/index.umd.min.js",
+    "json-schema-ref-parser": "@meeshkanml/json-schema-ref-parser"
+  },
   "react-native": "dist/index.js",
   "scripts": {
     "build:concat:dist": "concat -o dist/bundle.umd.min.js node_modules/json-schema-ref-parser/dist/ref-parser.min.js node_modules/jsonpath-plus/dist/index-umd.min.js dist/index.umd.min.js",
