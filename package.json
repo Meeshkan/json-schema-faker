@@ -27,7 +27,7 @@
     "report": "nyc report",
     "lint": "eslint src tests",
     "pretest": "npm run lint",
-    "prepublish": "npm run build",
+    "prepublish": "npm run build:node",
     "graphviz": "madge src --dot > structure.gv"
   },
   "author": "Alvaro Cabrera <pateketrueke@gmail.com> (https://soypache.co)",
