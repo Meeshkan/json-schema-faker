@@ -1,3 +1,15 @@
+v0.0.2
+  date: 2019-12-17
+  changes:
+    - Resolve `json-schema-ref-parser` as `@meeshkanml/json-schema-ref-parser`
+v0.0.1
+  date: 2019-12-17
+  changes:
+    - Add `react-native` field in `package.json`
+v0.0.0
+  date: 2019-12-17
+  changes:
+    - Initial release of the fork.
 v0.5.0-rc16
   date: 2018-10-01
   changes:

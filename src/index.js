@@ -1,4 +1,4 @@
-import $RefParser from 'json-schema-ref-parser';
+import $RefParser from '@meeshkanml/json-schema-ref-parser';
 
 import Container from './class/Container';
 import format from './api/format';

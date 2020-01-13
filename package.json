@@ -1,12 +1,16 @@
 {
-  "name": "json-schema-faker",
-  "version": "0.5.0-rc23",
-  "description": "JSON-Schema + fake data generators",
-  "homepage": "http://json-schema-faker.js.org",
+  "name": "@meeshkanml/json-schema-faker",
+  "version": "0.0.2",
+  "description": "Fork of json-schema-faker using a custom json-schema-ref-parser",
+  "homepage": "https://github.com/unmock/json-schema-ref-parser",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/bundle.umd.min.js",
-  "browser": "dist/index.umd.min.js",
+  "browser": {
+    "index.js": "dist/index.umd.min.js",
+    "json-schema-ref-parser": "@meeshkanml/json-schema-ref-parser"
+  },
+  "react-native": "dist/index.js",
   "scripts": {
     "build:concat:dist": "concat -o dist/bundle.umd.min.js node_modules/json-schema-ref-parser/dist/ref-parser.min.js node_modules/jsonpath-plus/dist/index-umd.min.js dist/index.umd.min.js",
     "build:browser": "bili --banner --format umd --format umd-min --module-name JSONSchemaFaker --minimal && npm run build:concat:dist",
@@ -26,7 +30,7 @@
     "report": "nyc report",
     "lint": "eslint src tests",
     "pretest": "npm run lint",
-    "prepublish": "npm run build",
+    "prepublish": "npm run build:node",
     "graphviz": "madge src --dot > structure.gv"
   },
   "author": "Alvaro Cabrera <pateketrueke@gmail.com> (https://soypache.co)",
@@ -36,9 +40,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/json-schema-faker/json-schema-faker"
+    "url": "https://github.com/unmock/json-schema-ref-parser"
   },
-  "bugs": "https://github.com/json-schema-faker/json-schema-faker/issues",
+  "bugs": "https://github.com/unmock/json-schema-ref-parser/issues",
   "license": "MIT",
   "keywords": [
     "json",
@@ -88,7 +92,7 @@
     "z-schema": "^4.1.0"
   },
   "dependencies": {
-    "json-schema-ref-parser": "^6.1.0",
+    "@meeshkanml/json-schema-ref-parser": "0.0.0",
     "jsonpath-plus": "^1.0.0",
     "randexp": "^0.5.3"
   }

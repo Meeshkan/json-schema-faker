@@ -1,4 +1,4 @@
-import $RefParser from 'json-schema-ref-parser';
+import $RefParser from '@meeshkanml/json-schema-ref-parser';
 import RandExp from 'randexp';
 import { JSONPath } from 'jsonpath-plus';
 
